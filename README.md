@@ -1,4 +1,4 @@
-# Frontend Boilerplate with React, Redux & TypeScript
+# 
 <simulate-window>
     <div class="window-header">
         <div class="window-header-right">
