@@ -1,0 +1,20 @@
+/* 初始化 */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,input,button,form,fieldset,img{
+	padding:0px;margin:0px;
+}
+/*Unicode编码(宋体:\5B8B\4F53) */
+body{background:#fff;font:12px/150% "Microsoft YaHei",Arial,Verdana,"\5b8b\4f53";color: #666;background: #fff;}
+/* 清除列表样式 */
+ol,ul {list-style: none;}
+/* 链接样式*/
+a {text-decoration:none;}
+a:link {color:#000;}
+a:visited{color:#000;}
+a:hover,a:active,a:focus{color:#C00C00; text-decoration:none;outline:none;}
+/* 常用样式 */
+img{border:0;vertical-align: middle;}
+h2,h3{font-family: "microsoft yahei";font-weight: 400;}
+em, i, u {font-style: normal;}
+
+textarea{border:1px solid #ccc}
+input::-ms-clear{display:none;}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div>simulate window</div>
+    <div id="root">
+      <simulate-window>
+            <div class="window-header">
+                <div class="window-header-right">
+                    <svg class="icon" aria-hidden="true">
+                        <use class="maximize" xlink:href="#icon-full-screen"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="window-body">
+                <div class="window-content">
+                </div>
+            </div>
+        </simulate-window>
+    </div>
+    <script>
+ window.onload = function () {
+   let el = document.querySelector('simulate-window');
+    new SimulateWindow.SimulateWindow({
+      el: el,
+      hooks: {
+        afterMaximize () {
+          console.log('放大了')
+        },
+        afterRestore () {
+          console.log('恢复了')
+        }
+      }
+    });
+ }
+    </script>
+  </body>
+</html>

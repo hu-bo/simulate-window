@@ -1,0 +1,29 @@
+simulate-window{
+  display: block;
+  background: #fff;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+.window-header-right {
+  float: right;
+  text-align: right;
+  padding: 0 10px;
+}
+.icon-full-screen{
+  font-size: 10px;
+}
+.maximize {
+  position: fixed;
+}
+.icon {
+  /* 通过设置 font-size 来改变图标大小 */
+  width: 2em; height: 1.6em;
+  /* 图标和文字相邻时，垂直对齐 */
+  vertical-align: -0.15em;
+  /* 通过设置 color 来改变 SVG 的颜色/fill */
+  fill: currentColor;
+  /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示
+      normalize.css 中也包含这行 */
+  overflow: hidden;
+}
